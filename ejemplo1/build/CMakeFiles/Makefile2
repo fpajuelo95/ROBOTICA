@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/francisco/Escritorio/ROBOTICA/ejemplo1
+CMAKE_SOURCE_DIR = /home/juanlu/Escritorio/ROBOTICA/ejemplo1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/francisco/Escritorio/ROBOTICA/ejemplo1/build
+CMAKE_BINARY_DIR = /home/juanlu/Escritorio/ROBOTICA/ejemplo1/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/ejemplo1.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/francisco/Escritorio/ROBOTICA/ejemplo1/build
 CMakeFiles/ejemplo1.dir/all:
 	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/depend
 	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target ejemplo1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target ejemplo1"
 .PHONY : CMakeFiles/ejemplo1.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/ejemplo1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ejemplo1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ejemplo1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles 0
 .PHONY : CMakeFiles/ejemplo1.dir/rule
 
 # Convenience name for target.

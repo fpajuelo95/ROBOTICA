@@ -19,7 +19,7 @@
 -I/usr/share/qt4/mkspecs/default
 -I/usr/include/qt4
 -I/usr/include/qt4/QtCore
--I/home/francisco/Escritorio/ROBOTICA/ejemplo1/build
+-I/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build
 -o
-/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx
-/home/francisco/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
