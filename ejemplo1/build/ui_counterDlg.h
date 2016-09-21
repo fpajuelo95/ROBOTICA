@@ -42,8 +42,12 @@ public:
         horizontalSlider = new QSlider(Counter);
         horizontalSlider->setObjectName(QString::fromUtf8("horizontalSlider"));
         horizontalSlider->setGeometry(QRect(120, 140, 160, 29));
+        horizontalSlider->setMinimum(0);
         horizontalSlider->setMaximum(999);
+        horizontalSlider->setTracking(false);
         horizontalSlider->setOrientation(Qt::Horizontal);
+        horizontalSlider->setInvertedAppearance(false);
+        horizontalSlider->setInvertedControls(false);
 
         retranslateUi(Counter);
 

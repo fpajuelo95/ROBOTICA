@@ -1,3 +1,4 @@
 # Hashes of file build rules.
-888a84b040907693d3bcac3e276ce919 moc_ejemplo1.cxx
-03e0ad354007f7c697f20fbcd33415d0 ui_counterDlg.h
+8cf32d3f5dc829b4ce3b314294c9d1a0 moc_ejemplo1.cxx
+1efc446121a1bd01872872fe8ba816b2 moc_myqtimer.cxx
+c6024ec23ef71e2182be1b1e40a75745 ui_counterDlg.h

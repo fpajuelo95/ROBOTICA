@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/francisco/Escritorio/ROBOTICA/ejemplo1/MyQtimer.cpp" "/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o"
-  "/home/francisco/Escritorio/ROBOTICA/ejemplo1/ejemplo1.cpp" "/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
-  "/home/francisco/Escritorio/ROBOTICA/ejemplo1/main.cpp" "/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles/ejemplo1.dir/main.cpp.o"
-  "/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx" "/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
+  "/home/juanlu/Escritorio/ROBOTICA/ejemplo1/ejemplo1.cpp" "/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
+  "/home/juanlu/Escritorio/ROBOTICA/ejemplo1/main.cpp" "/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles/ejemplo1.dir/main.cpp.o"
+  "/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx" "/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
+  "/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/moc_myqtimer.cxx" "/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles/ejemplo1.dir/moc_myqtimer.cxx.o"
+  "/home/juanlu/Escritorio/ROBOTICA/ejemplo1/myqtimer.cpp" "/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles/ejemplo1.dir/myqtimer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

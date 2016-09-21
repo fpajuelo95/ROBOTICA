@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/francisco/Escritorio/ROBOTICA/ejemplo1
+CMAKE_SOURCE_DIR = /home/juanlu/Escritorio/ROBOTICA/ejemplo1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/francisco/Escritorio/ROBOTICA/ejemplo1/build
+CMAKE_BINARY_DIR = /home/juanlu/Escritorio/ROBOTICA/ejemplo1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,9 +124,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles /home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles /home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -166,33 +166,6 @@ ejemplo1: cmake_check_build_system
 ejemplo1/fast:
 	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/build
 .PHONY : ejemplo1/fast
-
-MyQtimer.o: MyQtimer.cpp.o
-
-.PHONY : MyQtimer.o
-
-# target to build an object file
-MyQtimer.cpp.o:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o
-.PHONY : MyQtimer.cpp.o
-
-MyQtimer.i: MyQtimer.cpp.i
-
-.PHONY : MyQtimer.i
-
-# target to preprocess a source file
-MyQtimer.cpp.i:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/MyQtimer.cpp.i
-.PHONY : MyQtimer.cpp.i
-
-MyQtimer.s: MyQtimer.cpp.s
-
-.PHONY : MyQtimer.s
-
-# target to generate assembly for a file
-MyQtimer.cpp.s:
-	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/MyQtimer.cpp.s
-.PHONY : MyQtimer.cpp.s
 
 ejemplo1.o: ejemplo1.cpp.o
 
@@ -275,6 +248,60 @@ moc_ejemplo1.cxx.s:
 	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s
 .PHONY : moc_ejemplo1.cxx.s
 
+moc_myqtimer.o: moc_myqtimer.cxx.o
+
+.PHONY : moc_myqtimer.o
+
+# target to build an object file
+moc_myqtimer.cxx.o:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_myqtimer.cxx.o
+.PHONY : moc_myqtimer.cxx.o
+
+moc_myqtimer.i: moc_myqtimer.cxx.i
+
+.PHONY : moc_myqtimer.i
+
+# target to preprocess a source file
+moc_myqtimer.cxx.i:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_myqtimer.cxx.i
+.PHONY : moc_myqtimer.cxx.i
+
+moc_myqtimer.s: moc_myqtimer.cxx.s
+
+.PHONY : moc_myqtimer.s
+
+# target to generate assembly for a file
+moc_myqtimer.cxx.s:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/moc_myqtimer.cxx.s
+.PHONY : moc_myqtimer.cxx.s
+
+myqtimer.o: myqtimer.cpp.o
+
+.PHONY : myqtimer.o
+
+# target to build an object file
+myqtimer.cpp.o:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/myqtimer.cpp.o
+.PHONY : myqtimer.cpp.o
+
+myqtimer.i: myqtimer.cpp.i
+
+.PHONY : myqtimer.i
+
+# target to preprocess a source file
+myqtimer.cpp.i:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/myqtimer.cpp.i
+.PHONY : myqtimer.cpp.i
+
+myqtimer.s: myqtimer.cpp.s
+
+.PHONY : myqtimer.s
+
+# target to generate assembly for a file
+myqtimer.cpp.s:
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/myqtimer.cpp.s
+.PHONY : myqtimer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,9 +315,6 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... edit_cache"
-	@echo "... MyQtimer.o"
-	@echo "... MyQtimer.i"
-	@echo "... MyQtimer.s"
 	@echo "... ejemplo1.o"
 	@echo "... ejemplo1.i"
 	@echo "... ejemplo1.s"
@@ -300,6 +324,12 @@ help:
 	@echo "... moc_ejemplo1.o"
 	@echo "... moc_ejemplo1.i"
 	@echo "... moc_ejemplo1.s"
+	@echo "... moc_myqtimer.o"
+	@echo "... moc_myqtimer.i"
+	@echo "... moc_myqtimer.s"
+	@echo "... myqtimer.o"
+	@echo "... myqtimer.i"
+	@echo "... myqtimer.s"
 .PHONY : help
 
 

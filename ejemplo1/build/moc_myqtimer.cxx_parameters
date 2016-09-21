@@ -21,5 +21,5 @@
 -I/usr/include/qt4/QtCore
 -I/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build
 -o
-/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx
-/home/juanlu/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/moc_myqtimer.cxx
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/myqtimer.h

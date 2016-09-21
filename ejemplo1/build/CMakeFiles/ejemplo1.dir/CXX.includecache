@@ -6,27 +6,41 @@
 
 #IncludeRegexTransform: 
 
-/home/francisco/Escritorio/ROBOTICA/ejemplo1/MyQtimer.cpp
-
-/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx
 ../ejemplo1.h
-/home/francisco/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
 
-/home/francisco/Escritorio/ROBOTICA/ejemplo1/ejemplo1.cpp
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/moc_myqtimer.cxx
+../myqtimer.h
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/myqtimer.h
+
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/ejemplo1.cpp
 ejemplo1.h
-/home/francisco/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
+myqtimer.h
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/myqtimer.h
 
-/home/francisco/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
 QtGui
 -
 ui_counterDlg.h
-/home/francisco/Escritorio/ROBOTICA/ejemplo1/ui_counterDlg.h
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/ui_counterDlg.h
+myqtimer.h
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/myqtimer.h
 
-/home/francisco/Escritorio/ROBOTICA/ejemplo1/main.cpp
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/main.cpp
 QtGui/QApplication
 -
 ejemplo1.h
-/home/francisco/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
+
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/myqtimer.cpp
+myqtimer.h
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/myqtimer.h
+
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/myqtimer.h
+qt4/QtCore/qthread.h
+-
 
 /usr/include/qt4/Qt3Support/q3cstring.h
 QtCore/qbytearray.h
