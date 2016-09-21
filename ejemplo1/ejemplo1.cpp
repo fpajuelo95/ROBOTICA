@@ -6,8 +6,9 @@ ejemplo1::ejemplo1(): Ui_Counter()
 	show();
 	connect(button, SIGNAL(clicked()), this, SLOT(doButton()));
 	connect(&reloj, SIGNAL(timeout()), this, SLOT(recibirSenial()));
-	reloj.start(500);
-	lcdNumber->display(lcdNumber->intValue()+1);
+	connect(horizontalSlider,SIGNAL(valueChanged(int)),this,SLOT(reiniciarReloj()));
+	reloj.start(1000);
+	
 	
 	
 
@@ -27,16 +28,20 @@ void ejemplo1::doButton()
 	
 	}else{
 	  
-	  reloj.start(500);
+	  reloj.start(1000);
 	  
 	}
 }
 
 void ejemplo1::recibirSenial()
 {
+      lcdNumber->display(lcdNumber->intValue()+1);
       qDebug() << "RECIBIDA";
      
   
+}
+
+void ejemplo1::reiniciarReloj(){
 }
 
 

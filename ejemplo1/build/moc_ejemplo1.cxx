@@ -22,7 +22,7 @@ static const uint qt_meta_data_ejemplo1[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-       2,   14, // methods
+       3,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -32,12 +32,14 @@ static const uint qt_meta_data_ejemplo1[] = {
  // slots: signature, parameters, type, tag, flags
       10,    9,    9,    9, 0x0a,
       21,    9,    9,    9, 0x0a,
+      37,    9,    9,    9, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_ejemplo1[] = {
     "ejemplo1\0\0doButton()\0recibirSenial()\0"
+    "reiniciarReloj()\0"
 };
 
 void ejemplo1::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -48,6 +50,7 @@ void ejemplo1::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, vo
         switch (_id) {
         case 0: _t->doButton(); break;
         case 1: _t->recibirSenial(); break;
+        case 2: _t->reiniciarReloj(); break;
         default: ;
         }
     }
@@ -88,9 +91,9 @@ int ejemplo1::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 3;
     }
     return _id;
 }

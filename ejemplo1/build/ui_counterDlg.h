@@ -16,6 +16,7 @@
 #include <QtGui/QHeaderView>
 #include <QtGui/QLCDNumber>
 #include <QtGui/QPushButton>
+#include <QtGui/QSlider>
 #include <QtGui/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -25,6 +26,7 @@ class Ui_Counter
 public:
     QPushButton *button;
     QLCDNumber *lcdNumber;
+    QSlider *horizontalSlider;
 
     void setupUi(QWidget *Counter)
     {
@@ -37,6 +39,11 @@ public:
         lcdNumber = new QLCDNumber(Counter);
         lcdNumber->setObjectName(QString::fromUtf8("lcdNumber"));
         lcdNumber->setGeometry(QRect(50, 40, 301, 91));
+        horizontalSlider = new QSlider(Counter);
+        horizontalSlider->setObjectName(QString::fromUtf8("horizontalSlider"));
+        horizontalSlider->setGeometry(QRect(120, 140, 160, 29));
+        horizontalSlider->setMaximum(999);
+        horizontalSlider->setOrientation(Qt::Horizontal);
 
         retranslateUi(Counter);
 

@@ -14,6 +14,7 @@ public:
 public slots:
 	void doButton();
 	void recibirSenial();
+	void reiniciarReloj();
 
 private:
   

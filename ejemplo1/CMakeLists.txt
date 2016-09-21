@@ -5,7 +5,7 @@ find_package(Qt4 REQUIRED)
 include_directories(${QT_INCLUDES} ${CMAKE_CURRENT_BINARY_DIR})
 
 # Sources set
-SET ( SOURCES
+SET ( SOURCES MyQtimer.cpp
   ${SOURCES}
   ejemplo1.cpp
   main.cpp

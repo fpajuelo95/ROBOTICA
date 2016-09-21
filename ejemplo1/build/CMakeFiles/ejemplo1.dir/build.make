@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/juanlu/Escritorio/ROBOTICA/ejemplo1
+CMAKE_SOURCE_DIR = /home/francisco/Escritorio/ROBOTICA/ejemplo1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/juanlu/Escritorio/ROBOTICA/ejemplo1/build
+CMAKE_BINARY_DIR = /home/francisco/Escritorio/ROBOTICA/ejemplo1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ejemplo1.dir/depend.make
@@ -59,25 +59,49 @@ include CMakeFiles/ejemplo1.dir/flags.make
 
 moc_ejemplo1.cxx: ../ejemplo1.h
 moc_ejemplo1.cxx: moc_ejemplo1.cxx_parameters
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating moc_ejemplo1.cxx"
-	/usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating moc_ejemplo1.cxx"
+	/usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx_parameters
 
 ui_counterDlg.h: ../counterDlg.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_counterDlg.h"
-	/usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/ui_counterDlg.h /home/juanlu/Escritorio/ROBOTICA/ejemplo1/counterDlg.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_counterDlg.h"
+	/usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/francisco/Escritorio/ROBOTICA/ejemplo1/build/ui_counterDlg.h /home/francisco/Escritorio/ROBOTICA/ejemplo1/counterDlg.ui
+
+CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o: CMakeFiles/ejemplo1.dir/flags.make
+CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o: ../MyQtimer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o -c /home/francisco/Escritorio/ROBOTICA/ejemplo1/MyQtimer.cpp
+
+CMakeFiles/ejemplo1.dir/MyQtimer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/MyQtimer.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/ROBOTICA/ejemplo1/MyQtimer.cpp > CMakeFiles/ejemplo1.dir/MyQtimer.cpp.i
+
+CMakeFiles/ejemplo1.dir/MyQtimer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/MyQtimer.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/ROBOTICA/ejemplo1/MyQtimer.cpp -o CMakeFiles/ejemplo1.dir/MyQtimer.cpp.s
+
+CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o.requires:
+
+.PHONY : CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o.requires
+
+CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o.provides: CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ejemplo1.dir/build.make CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o.provides.build
+.PHONY : CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o.provides
+
+CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o.provides.build: CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o
+
 
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: CMakeFiles/ejemplo1.dir/flags.make
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o: ../ejemplo1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o -c /home/juanlu/Escritorio/ROBOTICA/ejemplo1/ejemplo1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o -c /home/francisco/Escritorio/ROBOTICA/ejemplo1/ejemplo1.cpp
 
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juanlu/Escritorio/ROBOTICA/ejemplo1/ejemplo1.cpp > CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/ROBOTICA/ejemplo1/ejemplo1.cpp > CMakeFiles/ejemplo1.dir/ejemplo1.cpp.i
 
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juanlu/Escritorio/ROBOTICA/ejemplo1/ejemplo1.cpp -o CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/ROBOTICA/ejemplo1/ejemplo1.cpp -o CMakeFiles/ejemplo1.dir/ejemplo1.cpp.s
 
 CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o.requires:
 
@@ -92,16 +116,16 @@ CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o.provides.build: CMakeFiles/ejemplo1.dir/e
 
 CMakeFiles/ejemplo1.dir/main.cpp.o: CMakeFiles/ejemplo1.dir/flags.make
 CMakeFiles/ejemplo1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ejemplo1.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/main.cpp.o -c /home/juanlu/Escritorio/ROBOTICA/ejemplo1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ejemplo1.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/main.cpp.o -c /home/francisco/Escritorio/ROBOTICA/ejemplo1/main.cpp
 
 CMakeFiles/ejemplo1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juanlu/Escritorio/ROBOTICA/ejemplo1/main.cpp > CMakeFiles/ejemplo1.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/ROBOTICA/ejemplo1/main.cpp > CMakeFiles/ejemplo1.dir/main.cpp.i
 
 CMakeFiles/ejemplo1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juanlu/Escritorio/ROBOTICA/ejemplo1/main.cpp -o CMakeFiles/ejemplo1.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/ROBOTICA/ejemplo1/main.cpp -o CMakeFiles/ejemplo1.dir/main.cpp.s
 
 CMakeFiles/ejemplo1.dir/main.cpp.o.requires:
 
@@ -116,16 +140,16 @@ CMakeFiles/ejemplo1.dir/main.cpp.o.provides.build: CMakeFiles/ejemplo1.dir/main.
 
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: CMakeFiles/ejemplo1.dir/flags.make
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o: moc_ejemplo1.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o -c /home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o -c /home/francisco/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx
 
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx > CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/francisco/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx > CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.i
 
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx -o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/francisco/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx -o CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.s
 
 CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o.requires:
 
@@ -140,6 +164,7 @@ CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o.provides.build: CMakeFiles/ejemplo1.d
 
 # Object files for target ejemplo1
 ejemplo1_OBJECTS = \
+"CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o" \
 "CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o" \
 "CMakeFiles/ejemplo1.dir/main.cpp.o" \
 "CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o"
@@ -147,6 +172,7 @@ ejemplo1_OBJECTS = \
 # External object files for target ejemplo1
 ejemplo1_EXTERNAL_OBJECTS =
 
+ejemplo1: CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o
 ejemplo1: CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o
 ejemplo1: CMakeFiles/ejemplo1.dir/main.cpp.o
 ejemplo1: CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o
@@ -154,7 +180,7 @@ ejemplo1: CMakeFiles/ejemplo1.dir/build.make
 ejemplo1: /usr/lib/x86_64-linux-gnu/libQtCore.so
 ejemplo1: /usr/lib/x86_64-linux-gnu/libQtGui.so
 ejemplo1: CMakeFiles/ejemplo1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ejemplo1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ejemplo1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ejemplo1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -162,6 +188,7 @@ CMakeFiles/ejemplo1.dir/build: ejemplo1
 
 .PHONY : CMakeFiles/ejemplo1.dir/build
 
+CMakeFiles/ejemplo1.dir/requires: CMakeFiles/ejemplo1.dir/MyQtimer.cpp.o.requires
 CMakeFiles/ejemplo1.dir/requires: CMakeFiles/ejemplo1.dir/ejemplo1.cpp.o.requires
 CMakeFiles/ejemplo1.dir/requires: CMakeFiles/ejemplo1.dir/main.cpp.o.requires
 CMakeFiles/ejemplo1.dir/requires: CMakeFiles/ejemplo1.dir/moc_ejemplo1.cxx.o.requires
@@ -174,6 +201,6 @@ CMakeFiles/ejemplo1.dir/clean:
 
 CMakeFiles/ejemplo1.dir/depend: moc_ejemplo1.cxx
 CMakeFiles/ejemplo1.dir/depend: ui_counterDlg.h
-	cd /home/juanlu/Escritorio/ROBOTICA/ejemplo1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/juanlu/Escritorio/ROBOTICA/ejemplo1 /home/juanlu/Escritorio/ROBOTICA/ejemplo1 /home/juanlu/Escritorio/ROBOTICA/ejemplo1/build /home/juanlu/Escritorio/ROBOTICA/ejemplo1/build /home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles/ejemplo1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/francisco/Escritorio/ROBOTICA/ejemplo1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/francisco/Escritorio/ROBOTICA/ejemplo1 /home/francisco/Escritorio/ROBOTICA/ejemplo1 /home/francisco/Escritorio/ROBOTICA/ejemplo1/build /home/francisco/Escritorio/ROBOTICA/ejemplo1/build /home/francisco/Escritorio/ROBOTICA/ejemplo1/build/CMakeFiles/ejemplo1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ejemplo1.dir/depend
 

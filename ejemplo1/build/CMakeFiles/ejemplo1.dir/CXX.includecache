@@ -6,25 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/juanlu/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx
+/home/francisco/Escritorio/ROBOTICA/ejemplo1/MyQtimer.cpp
+
+/home/francisco/Escritorio/ROBOTICA/ejemplo1/build/moc_ejemplo1.cxx
 ../ejemplo1.h
-/home/juanlu/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
+/home/francisco/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
 
-/home/juanlu/Escritorio/ROBOTICA/ejemplo1/ejemplo1.cpp
+/home/francisco/Escritorio/ROBOTICA/ejemplo1/ejemplo1.cpp
 ejemplo1.h
-/home/juanlu/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
+/home/francisco/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
 
-/home/juanlu/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
+/home/francisco/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
 QtGui
 -
 ui_counterDlg.h
-/home/juanlu/Escritorio/ROBOTICA/ejemplo1/ui_counterDlg.h
+/home/francisco/Escritorio/ROBOTICA/ejemplo1/ui_counterDlg.h
 
-/home/juanlu/Escritorio/ROBOTICA/ejemplo1/main.cpp
+/home/francisco/Escritorio/ROBOTICA/ejemplo1/main.cpp
 QtGui/QApplication
 -
 ejemplo1.h
-/home/juanlu/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
+/home/francisco/Escritorio/ROBOTICA/ejemplo1/ejemplo1.h
 
 /usr/include/qt4/Qt3Support/q3cstring.h
 QtCore/qbytearray.h
@@ -1569,6 +1571,10 @@ qprinter.h
 /usr/include/qt4/QtGui/QPushButton
 qpushbutton.h
 /usr/include/qt4/QtGui/qpushbutton.h
+
+/usr/include/qt4/QtGui/QSlider
+qslider.h
+/usr/include/qt4/QtGui/qslider.h
 
 /usr/include/qt4/QtGui/QTransform
 qtransform.h
@@ -3844,6 +3850,8 @@ QtGui/QHeaderView
 QtGui/QLCDNumber
 -
 QtGui/QPushButton
+-
+QtGui/QSlider
 -
 QtGui/QWidget
 -
