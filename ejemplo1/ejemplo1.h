@@ -3,6 +3,7 @@
 
 #include <QtGui>
 #include "ui_counterDlg.h"
+#include "myqtimer.h"
 
 class ejemplo1 : public QWidget, public Ui_Counter
 {
@@ -18,7 +19,9 @@ public slots:
 
 private:
   
-  QTimer reloj;
+MyQtimer reloj;
+int x;
+  
   
 
 };

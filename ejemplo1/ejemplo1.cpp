@@ -1,13 +1,15 @@
 #include "ejemplo1.h"
+#include "myqtimer.h"
 
 ejemplo1::ejemplo1(): Ui_Counter()
 {
+	x=88888;
 	setupUi(this);
 	show();
 	connect(button, SIGNAL(clicked()), this, SLOT(doButton()));
 	connect(&reloj, SIGNAL(timeout()), this, SLOT(recibirSenial()));
 	connect(horizontalSlider,SIGNAL(valueChanged(int)),this,SLOT(reiniciarReloj()));
-	reloj.start(1000);
+	reloj.start(x);
 	
 	
 	
@@ -16,7 +18,8 @@ ejemplo1::ejemplo1(): Ui_Counter()
 
 
 ejemplo1::~ejemplo1()
-{}
+{
+}
 
 void ejemplo1::doButton()
 {
@@ -28,7 +31,8 @@ void ejemplo1::doButton()
 	
 	}else{
 	  
-	  reloj.start(1000);
+	  x = horizontalSlider->value();
+	  reloj.start(x);
 	  
 	}
 }
@@ -42,6 +46,10 @@ void ejemplo1::recibirSenial()
 }
 
 void ejemplo1::reiniciarReloj(){
+  if(reloj.isActive()){
+    x = horizontalSlider->value();
+    reloj.start(x);
+  }
 }
 
 

@@ -45,11 +45,23 @@
      <height>29</height>
     </rect>
    </property>
+   <property name="minimum">
+    <number>0</number>
+   </property>
    <property name="maximum">
     <number>999</number>
    </property>
+   <property name="tracking">
+    <bool>false</bool>
+   </property>
    <property name="orientation">
     <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="invertedAppearance">
+    <bool>false</bool>
+   </property>
+   <property name="invertedControls">
+    <bool>false</bool>
    </property>
   </widget>
  </widget>
