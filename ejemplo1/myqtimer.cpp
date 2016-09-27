@@ -28,14 +28,19 @@ bool MyQtimer::isActive()
 
 void MyQtimer::run()
 {
-  stopp = false;
+  int periodo_local;
+  bool stopp_local;
   while(true)
 {
-    if(!stopp)
+    mutex.lock();
+    periodo_local=periodo;
+    stopp_local=stopp;
+    mutex.unlock();
+    if(!stopp_local)
     {
       emit timeout();
     }
-    usleep(periodo);
+    usleep(periodo_local);
 }
 
 }
