@@ -3,7 +3,7 @@
 
 ejemplo1::ejemplo1(): Ui_Counter()
 {
-	x=88888;
+	x=1000;
 	setupUi(this);
 	show();
 	connect(button, SIGNAL(clicked()), this, SLOT(doButton()));

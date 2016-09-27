@@ -2,7 +2,6 @@
 
 MyQtimer::MyQtimer()
 {
-periodo = 1000;
 }
 
 void MyQtimer::start(int num)
@@ -40,7 +39,7 @@ void MyQtimer::run()
     {
       emit timeout();
     }
-    usleep(periodo_local);
+    msleep(periodo_local);
 }
 
 }
