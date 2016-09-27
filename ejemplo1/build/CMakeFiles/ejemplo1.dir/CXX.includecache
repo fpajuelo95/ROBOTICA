@@ -39,6 +39,8 @@ myqtimer.h
 /home/juanlu/Escritorio/ROBOTICA/ejemplo1/myqtimer.h
 
 /home/juanlu/Escritorio/ROBOTICA/ejemplo1/myqtimer.h
+QMutex
+/home/juanlu/Escritorio/ROBOTICA/ejemplo1/QMutex
 qt4/QtCore/qthread.h
 -
 
@@ -67,6 +69,10 @@ qdatetime.h
 /usr/include/qt4/QtCore/QList
 qlist.h
 /usr/include/qt4/QtCore/qlist.h
+
+/usr/include/qt4/QtCore/QMutex
+qmutex.h
+/usr/include/qt4/QtCore/qmutex.h
 
 /usr/include/qt4/QtCore/QObject
 qobject.h
